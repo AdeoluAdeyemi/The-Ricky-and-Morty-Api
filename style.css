@@ -1,0 +1,62 @@
+:root {
+    --jumbotron-padding-y: 3rem;
+  }
+  
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+  
+  .jumbotron p:last-child {
+    max-width: 30em;
+    margin: 0 auto;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 900;
+    font-size: 4.5rem;
+  }
+  
+  .jumbotron .container {
+    max-width: 80rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+  
+  .card, .card img {
+    width: 348px;
+}
+
+.card-body {
+    max-width: 300px;
+}
+
+.card.mb-4.box-shadow {
+    margin: 0 15px;
+}
+
+.lead {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.badge {
+    font-size: 10px;
+}
